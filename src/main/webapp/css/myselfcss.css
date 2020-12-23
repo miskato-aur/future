@@ -1,0 +1,271 @@
+.selfContiner{
+    width: 1170px;
+    max-width: 1920px;
+    height: 800px;
+    background-color:rgba(255, 255, 255, 0.7);
+    border: 2px solid #E1E2E5;
+    margin: 0 auto;
+
+}
+
+.selftop{
+    width: 80%;
+    height: 20%;
+    margin: 0 auto;
+    border-bottom: 1px solid #E1E2E5;
+
+
+}
+
+.head_image{
+
+    float: left;
+    width: 15%;
+    height: 50%;
+    /*background-color: red;*/
+    margin-top:34px ;
+
+
+
+}
+
+.head_image >a{
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: ivory;
+    margin: 0 auto;
+    background: url('../images/frumImgs/3.jpg') no-repeat;
+    background-size: 80px;
+    overflow: hidden;
+
+   
+
+}
+
+
+.head_image >a:hover{
+    content: '';
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: url('../images/frumImgs/3.jpg') no-repeat;
+    background-size: 100px;
+    z-index: 22;
+
+}
+
+.head_right{
+    position: relative;
+    float: right;
+    width: 85%;
+    height: 80%;
+    /* background-color: red; */
+    margin-top: 18px;
+    border-left: 2px solid #E1E2E5;
+    
+}
+
+.self{
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto ;
+
+}
+.self h1{
+    display: inline-block;
+    font-size: 20px;
+    color: #222;
+    font-weight: 700;
+}
+
+.self h2{
+    
+    font-size: 20px;
+    width: 60px;
+    font-weight: 800;
+    margin-top: 10px;
+
+}
+
+
+.self h3{
+   
+    font-size: 20px;
+    
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.self > span{
+    display: inline-block;
+    border:1px solid #99a2aa;
+    font-size: 12px;
+    border-radius: 3px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    color: #99a2aa;
+    padding: 2px 4px;
+}
+
+
+.bod{
+    border:1px solid #99a2aa;
+    font-size: 12px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #99a2aa;
+    padding: 2px 4px;
+
+
+}
+
+
+.selfcenter{
+    width: 80%;
+    height: 600px;
+    /* background-color: red; */
+    margin: 10px auto;
+    border-left: 1px solid #E1E2E5;
+    border-right: 1px solid #E1E2E5;
+    border-bottom: 1px solid #E1E2E5;
+}
+
+
+.centertop{
+    width: 100%;
+    height: 10%;
+    /* background-color:#99a2aa ; */
+    padding-left: 30px;
+}
+
+
+.centertop .a{
+    display: block;
+    float: left;
+    width: 7px;
+    height: 20px;
+    border-radius: 3px;
+    background-color: #00a1d6;
+    font-size: 20px;
+    color: #00a1d6;
+    margin-top: 20px
+    
+    
+
+
+}
+
+
+
+.centertop .b{
+    display: block;
+    float: left;
+    font-size: 20px;
+    color: #00a1d6;
+    margin-top: 14px;
+    margin-left: 10px;
+    
+
+
+}
+
+
+ .centerbody{
+    width: 90%;
+    height: 90%;
+    /* background-color:#99a2aa ; */
+    padding-left: 65px;
+    margin: 0 auto;
+ }
+
+
+ .name{
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin-top: 30px;
+    color: #717171;
+        
+ }
+
+
+
+ .userid{
+    float: left;
+    width: 100%;
+    height: 30px;
+ }
+
+
+
+ .userinfo{
+    float: left;
+    width: 100%;
+    height: 30px;
+
+ }
+
+ .uinput{
+    
+    position: absolute;
+    width: 281px;
+    height:36px ;
+    border: #97a8be solid 2px;
+    border-radius: 10px;
+    top:-6px;
+    margin-left: 17px;
+
+ }
+
+
+ .uinput:hover{
+   
+    border: #8391a5 solid 2px;
+
+ }
+
+
+ .luinput{
+    
+    position: absolute;
+    width: 700px;
+    height:113px ;
+    border: #97a8be solid 2px;
+    border-radius: 10px;
+    top:-6px;
+    margin-left: 17px;
+
+ }
+ 
+ button{
+    border: none;
+    outline: none;
+ }
+
+ .sub{
+     position: absolute;
+    width: 150px;
+    height: 51px;
+    border-radius: 10px;
+    background-color: #00b5e5;
+    left: 0;
+    right: 0;
+    top: 50;
+    bottom: 0;
+    margin: auto;
+    color: rgb(255, 255, 255);
+
+ }
+
+ .sub:hover{
+    background-color: #4db3ff;
+
+ }
